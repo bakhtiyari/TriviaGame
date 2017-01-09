@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Movies Trivia Game</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	
+	<div class="container">
+
+		<header>
+			<h1>Movies Trivia Game</h1>
+		</header>
+
+		<button id="start" type="button">Start</button>
+
+		<div >
+			<p id="time"></p>
+		</div>
+
+		<div id="qandas">
+
+			<p id="question"> </p>
+				
+			<div class="answers">
+
+				<p id="answer1"> </p>
+				<p id="answer2"> </p>
+				<p id="answer3"> </p>
+				<p id="answer4"> </p>
+				
+			</div>
+			
+		</div>
+
+		<div class="answerinfo" >
+			
+			<h2 id="result"></h2>
+
+			<h2 id="correctAnswer"></h2>
+
+		</div>
+
+		<div class="stats">
+
+			<p id="gameover"> </p>
+			<p id="numcorransw"> </p>
+			<p id="nimincorransw"> </p>
+			<p id="numunansw"> </p>
+			
+		</div>
+
+		<div id="image"> </div>
+
+	</div>
+		
+
+	<!-- script tag should be at the bottom of the body so it can change the body after it has been loaded -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
